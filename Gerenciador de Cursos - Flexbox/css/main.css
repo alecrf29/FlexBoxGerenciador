@@ -1,0 +1,53 @@
+.imagemVideosobre {
+    width: 50%;
+}
+
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+    width: 23%;
+    margin: 1;
+}
+
+.videoSobre .container {
+    display: flex;
+    
+}
+
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 1;
+}
+
+
+
+/*Parte Mobile */
+
+@media (max-width:768px) {
+    .conteudoPrincipal-cursos  {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1em;
+    }
+
+    .conteudoPrincipal-cursos-link {
+        width: 100%;
+    }
+
+    .videoSobre .container {
+        flex-direction: column;
+    }
+
+    .imagemVideosobre {
+        margin: 0 auto;
+    }
+}

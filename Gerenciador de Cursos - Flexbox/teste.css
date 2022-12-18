@@ -1,0 +1,41 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 100vh;
+    gap: 1.5rem;
+}
+
+.cabecalho {
+    grid-area: header;
+    background-color: brown;
+    padding: 3.5em;
+}
+
+.menu-lateral {
+    grid-area: aside;
+    background-color:darkolivegreen;
+    
+}
+
+.principal {
+    grid-area: main;
+    background-color: darkolivegreen;
+}
+
+.rodapé {
+    grid-area: footer;
+    background-color: brown;
+
+    padding: 3.5em;
+}
+
+
+
+
+
+
+
